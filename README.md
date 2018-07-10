@@ -6,7 +6,7 @@ You are a plumbing technician given a box of different lengths of pipe. Your tas
 
 - Input
 
-The first line of the input will pair of integers, $N$ and $M$.
+The first line of the input will pair of integers, \N and $M$.
 $N$ represents the number of items to work with, and $M$ represents the number of partitions the list needs to be split into.
 
 The range of $N$ and $M$ will be such that $1 \leq N \leq 30$ and $1 \leq M \leq 10$.
