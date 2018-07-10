@@ -15,6 +15,8 @@ The last line will be a list *N* integers, each separated by a space.
 This is the input that will be used to determine if *M* partitions of equal sums can be made.
 The end of the input will be designated by a 0.
 
+- Output
+
 Output the word "Possible" or "Impossible" to split the *N* items into *M* subsets of equal sums.
 
 
