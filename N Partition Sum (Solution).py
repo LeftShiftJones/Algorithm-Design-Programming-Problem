@@ -74,7 +74,7 @@ def findPartition(arr, goal, iterations):
 	if(computable[goal][n]): 
 		if(not(removeElements(arr, goal, vals))): return False
 
-	#and statement short-circuits if 
+	#and statement short-circuits if solution doesn't come on a subsequent check
 	return computable[goal][n] and findPartition(arr, goal, iterations-1)
 
 
